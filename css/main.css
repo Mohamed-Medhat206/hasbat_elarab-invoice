@@ -1,0 +1,219 @@
+html{
+    background-color: rgb(255 255 255);
+}
+.header #img1{
+    width: 9%;
+}
+
+header .info h1{
+    color: rgb(217, 173, 14);
+}
+.data h1{
+    margin: 0px;
+    color: rgb(217, 173, 14);
+    font-size: 50px;font-family: cursive;
+}
+.info h1{
+    margin: 0px;
+    color: rgb(217, 173, 14);
+    font-size: 50px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin:0px 20px;
+    direction: rtl;
+}
+
+@media (max-width: 590px) {
+    .header {
+        flex-direction: row;
+        margin: 0px;
+        width: 100%;
+        margin: 0px;
+    }
+    .header #img1{
+        width: 20%;
+    }
+}
+
+@media (max-width: 460px) {
+   
+    .header {
+        flex-direction: column;
+        margin: 0px;
+        width: 120%;
+        margin: 0px;
+    }
+    .header #img1{
+        margin: 0px;
+        width: 40%;
+        text-align: center;
+        margin-right: 100px;
+    }
+    .container1,
+    .container2{
+        width: 150% !important;
+        margin: 0px !important;
+    }
+    table:nth-child(2){
+        width: 152% !important;
+        margin: 0px !important;
+    }
+}
+
+
+
+hr{
+    border: 1px solid rgb(217, 173, 14);
+    width:90% ;
+}
+main .container1{
+    display: flex;
+    justify-content: space-between;
+    width: 89%;
+    margin: 0px 5%;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+table:nth-child(2){
+    width: 90%;
+    margin: 0px 5%;
+    border: 1px solid;
+    border-radius: 10px;
+}
+caption:first-child{
+    background-color: rgb(217, 173, 14);
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 3px 10px;
+    font-size: 18px;
+    color: #f9fafc;
+}
+table:nth-child(2) tr{
+    display: flex;
+    justify-content: space-between;
+}
+tbody{
+    border: 2px solid;
+    border-radius: 100px;
+}
+table:nth-child(2) td{
+    margin: 5px;
+}
+tr:nth-child(3),
+tr:nth-child(7),
+tr:nth-child(9),
+tr:nth-child(11){
+    background-color: rgb(217, 173, 14);
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 0px 5px;
+    width: 99.2%;
+    font-size: 18px;
+    margin-left: -1px;
+    color: #f9fafc;
+}
+
+tr:nth-child(8) td{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+
+
+tr:nth-child(10) td{
+    width: 100%;
+}
+td table{
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100.5%;
+    font-size: 15px;
+    font-family: 'Droid Arabic Naskh';
+    font-weight: bold;
+    margin-left:-5px;
+}
+
+td table th{
+    border: 1px solid;
+    width: calc(100% /3);
+    padding: 5px 5px;
+    background-color: rgb(222 222 222);
+}
+tr:nth-child(12) td{
+    width: 100%;
+}
+table:nth-child(3){
+    border: 1px solid;
+    border-collapse: collapse;
+    font-size: 15px;
+    font-family: 'Droid Arabic Naskh';
+    font-weight: bold;
+    margin-left:-5px;
+}
+table:nth-child(3) th{
+    padding: 15px;
+    background-color: rgb(222 222 222);
+    border: 2px solid;
+}
+tr:nth-child(12) td tr td{
+    text-align: center;
+    border: 1px  solid;
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    margin: 5px 0px;
+}
+main .container2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 89%;
+    margin: 0px 5%;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+@media (max-width: 690px) {
+header img {
+width: 85%;
+margin: 0px 5%;
+}
+hr {
+    border: 1px solid rgb(217, 173, 14);
+    width: 85%;
+    margin-left: 10%;
+}
+main .container1,
+main .container2 {
+
+    width: 88%;
+
+}
+.header #img1{
+    width: 20%;
+    height: 80%;
+}
+.data h1,
+.info h1{
+    color: rgb(217, 173, 14);
+    font-size: 30px;
+    font-family: cursive;
+}
+}
+
+
+
+
+
+
